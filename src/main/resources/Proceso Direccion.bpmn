@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:drools="http://www.jboss.org/drools" id="_qZPdgNJ1Ee2BWNPUVB2Ekg" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd http://www.omg.org/spec/DD/20100524/DC DC.xsd http://www.omg.org/spec/DD/20100524/DI DI.xsd " exporter="jBPM Process Modeler" exporterVersion="2.0" targetNamespace="http://www.omg.org/bpmn20">
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:drools="http://www.jboss.org/drools" id="_naT8UNJ3Ee2BWNPUVB2Ekg" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd http://www.omg.org/spec/DD/20100524/DC DC.xsd http://www.omg.org/spec/DD/20100524/DI DI.xsd " exporter="jBPM Process Modeler" exporterVersion="2.0" targetNamespace="http://www.omg.org/bpmn20">
   <bpmn2:process id="DirecGeneral.ProcesoDireccion" drools:packageName="org.jbpm" drools:version="1.0" drools:adHoc="true" name="Proceso Direccion" isExecutable="true" processType="Public">
-    <bpmn2:laneSet id="_qZPdgdJ1Ee2BWNPUVB2Ekg">
+    <bpmn2:laneSet id="_naT8UdJ3Ee2BWNPUVB2Ekg">
+      <bpmn2:lane id="_A5BB70A6-64C3-4FD0-95E3-D979D4162E6D" name="Lane">
+        <bpmn2:extensionElements>
+          <drools:metaData name="elementname">
+            <drools:metaValue><![CDATA[Lane]]></drools:metaValue>
+          </drools:metaData>
+        </bpmn2:extensionElements>
+      </bpmn2:lane>
       <bpmn2:lane id="_DA6AB3DC-8E67-4AF7-ACC6-0CED58A652EE" name="Asesor de comunicaciones">
         <bpmn2:extensionElements>
           <drools:metaData name="elementname">
@@ -18,7 +25,19 @@
 ]]></drools:metaValue>
         </drools:metaData>
       </bpmn2:extensionElements>
-      <bpmn2:laneSet id="_qZPdgtJ1Ee2BWNPUVB2Ekg">
+      <bpmn2:ioSpecification id="_naT8UtJ3Ee2BWNPUVB2Ekg">
+        <bpmn2:inputSet id="_naT8U9J3Ee2BWNPUVB2Ekg"/>
+        <bpmn2:outputSet id="_naT8VNJ3Ee2BWNPUVB2Ekg"/>
+      </bpmn2:ioSpecification>
+      <bpmn2:multiInstanceLoopCharacteristics id="_naT8VdJ3Ee2BWNPUVB2Ekg"/>
+      <bpmn2:laneSet id="_naT8VtJ3Ee2BWNPUVB2Ekg">
+        <bpmn2:lane id="_A5BB70A6-64C3-4FD0-95E3-D979D4162E6D" name="Lane">
+          <bpmn2:extensionElements>
+            <drools:metaData name="elementname">
+              <drools:metaValue><![CDATA[Lane]]></drools:metaValue>
+            </drools:metaData>
+          </bpmn2:extensionElements>
+        </bpmn2:lane>
         <bpmn2:lane id="_DA6AB3DC-8E67-4AF7-ACC6-0CED58A652EE" name="Asesor de comunicaciones">
           <bpmn2:extensionElements>
             <drools:metaData name="elementname">
@@ -30,20 +49,26 @@
       </bpmn2:laneSet>
     </bpmn2:subProcess>
   </bpmn2:process>
-  <bpmndi:BPMNDiagram id="_qZPdg9J1Ee2BWNPUVB2Ekg">
-    <bpmndi:BPMNPlane id="_qZPdhNJ1Ee2BWNPUVB2Ekg" bpmnElement="DirecGeneral.ProcesoDireccion">
-      <bpmndi:BPMNShape id="shape__54FE436D-953F-4B7B-8528-B05289A2DEE4" bpmnElement="_54FE436D-953F-4B7B-8528-B05289A2DEE4" isExpanded="true">
-        <dc:Bounds height="253.0" width="653.0" x="55.0" y="27.0"/>
+  <bpmndi:BPMNDiagram id="_naT8V9J3Ee2BWNPUVB2Ekg">
+    <bpmndi:BPMNPlane id="_naT8WNJ3Ee2BWNPUVB2Ekg" bpmnElement="DirecGeneral.ProcesoDireccion">
+      <bpmndi:BPMNShape id="shape__54FE436D-953F-4B7B-8528-B05289A2DEE4" bpmnElement="_54FE436D-953F-4B7B-8528-B05289A2DEE4">
+        <dc:Bounds height="465.0" width="699.0" x="58.0" y="26.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="shape__A5BB70A6-64C3-4FD0-95E3-D979D4162E6D" bpmnElement="_A5BB70A6-64C3-4FD0-95E3-D979D4162E6D">
+        <dc:Bounds height="200.0" width="493.0" x="63.0" y="252.0"/>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="shape__DA6AB3DC-8E67-4AF7-ACC6-0CED58A652EE" bpmnElement="_DA6AB3DC-8E67-4AF7-ACC6-0CED58A652EE">
-        <dc:Bounds height="200.0" width="494.0" x="60.0" y="46.0"/>
+        <dc:Bounds height="200.0" width="494.0" x="62.0" y="53.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="shape__A5BB70A6-64C3-4FD0-95E3-D979D4162E6D" bpmnElement="_A5BB70A6-64C3-4FD0-95E3-D979D4162E6D">
+        <dc:Bounds height="200.0" width="493.0" x="63.0" y="252.0"/>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="shape__DA6AB3DC-8E67-4AF7-ACC6-0CED58A652EE" bpmnElement="_DA6AB3DC-8E67-4AF7-ACC6-0CED58A652EE">
-        <dc:Bounds height="200.0" width="494.0" x="60.0" y="46.0"/>
+        <dc:Bounds height="200.0" width="494.0" x="62.0" y="53.0"/>
       </bpmndi:BPMNShape>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
-  <bpmn2:relationship id="_qZPdhdJ1Ee2BWNPUVB2Ekg" type="BPSimData">
+  <bpmn2:relationship id="_naT8WdJ3Ee2BWNPUVB2Ekg" type="BPSimData">
     <bpmn2:extensionElements>
       <bpsim:BPSimData>
         <bpsim:Scenario xsi:type="bpsim:Scenario" id="default" name="Simulationscenario">
@@ -51,7 +76,7 @@
         </bpsim:Scenario>
       </bpsim:BPSimData>
     </bpmn2:extensionElements>
-    <bpmn2:source>_qZPdgNJ1Ee2BWNPUVB2Ekg</bpmn2:source>
-    <bpmn2:target>_qZPdgNJ1Ee2BWNPUVB2Ekg</bpmn2:target>
+    <bpmn2:source>_naT8UNJ3Ee2BWNPUVB2Ekg</bpmn2:source>
+    <bpmn2:target>_naT8UNJ3Ee2BWNPUVB2Ekg</bpmn2:target>
   </bpmn2:relationship>
 </bpmn2:definitions>
