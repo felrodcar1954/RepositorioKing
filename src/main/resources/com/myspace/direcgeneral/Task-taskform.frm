@@ -1,0 +1,1 @@
+{"id":"e49c7125-958c-44ae-a04d-33b53e5fb46f","name":"Task-taskform.frm","model":{"taskName":"Task","processId":"DirecGeneral.Proceso_comunicaciones","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}
