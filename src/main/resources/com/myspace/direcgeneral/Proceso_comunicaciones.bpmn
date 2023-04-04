@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_hcX_ANMLEe2BWNPUVB2Ekg" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd http://www.omg.org/spec/DD/20100524/DC DC.xsd http://www.omg.org/spec/DD/20100524/DI DI.xsd " exporter="jBPM Process Modeler" exporterVersion="2.0" targetNamespace="http://www.omg.org/bpmn20">
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_h8GA4NMLEe2BWNPUVB2Ekg" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd http://www.omg.org/spec/DD/20100524/DC DC.xsd http://www.omg.org/spec/DD/20100524/DI DI.xsd " exporter="jBPM Process Modeler" exporterVersion="2.0" targetNamespace="http://www.omg.org/bpmn20">
   <bpmn2:itemDefinition id="__5CA40F64-93AC-422F-9843-0D4AEB545FA2_SkippableInputXItem" structureRef="Object"/>
   <bpmn2:itemDefinition id="__5CA40F64-93AC-422F-9843-0D4AEB545FA2_PriorityInputXItem" structureRef="Object"/>
   <bpmn2:itemDefinition id="__5CA40F64-93AC-422F-9843-0D4AEB545FA2_CommentInputXItem" structureRef="Object"/>
@@ -25,7 +25,7 @@
   <bpmn2:itemDefinition id="__38D5A095-6597-4786-96E6-3D33200288FA_NotStartedNotifyInputXItem" structureRef="Object"/>
   <bpmn2:itemDefinition id="__38D5A095-6597-4786-96E6-3D33200288FA_NotCompletedNotifyInputXItem" structureRef="Object"/>
   <bpmn2:process id="DirecGeneral.Proceso_comunicaciones" drools:packageName="com.myspace.direcgeneral" drools:version="1.0" drools:adHoc="false" name="Proceso_comunicaciones" isExecutable="true" processType="Public">
-    <bpmn2:laneSet id="_hcX_AdMLEe2BWNPUVB2Ekg">
+    <bpmn2:laneSet id="_h8GA4dMLEe2BWNPUVB2Ekg">
       <bpmn2:lane id="_683E4396-24D7-4638-881C-E2183E5F51CE" name="Lane">
         <bpmn2:extensionElements>
           <drools:metaData name="elementname">
@@ -59,27 +59,27 @@
           </drools:metaData>
         </bpmn2:extensionElements>
         <bpmn2:incoming>_148B08A8-B8A0-48D5-9E20-69E352456ADD</bpmn2:incoming>
-        <bpmn2:ioSpecification id="_hcX_AtMLEe2BWNPUVB2Ekg">
+        <bpmn2:ioSpecification id="_h8GA4tMLEe2BWNPUVB2Ekg">
           <bpmn2:dataInput id="_38D5A095-6597-4786-96E6-3D33200288FA_TaskNameInputX" drools:dtype="Object" itemSubjectRef="__38D5A095-6597-4786-96E6-3D33200288FA_TaskNameInputXItem" name="TaskName"/>
           <bpmn2:dataInput id="_38D5A095-6597-4786-96E6-3D33200288FA_SkippableInputX" drools:dtype="Object" itemSubjectRef="__38D5A095-6597-4786-96E6-3D33200288FA_SkippableInputXItem" name="Skippable"/>
-          <bpmn2:inputSet id="_hcX_A9MLEe2BWNPUVB2Ekg">
+          <bpmn2:inputSet id="_h8GA49MLEe2BWNPUVB2Ekg">
             <bpmn2:dataInputRefs>_38D5A095-6597-4786-96E6-3D33200288FA_TaskNameInputX</bpmn2:dataInputRefs>
             <bpmn2:dataInputRefs>_38D5A095-6597-4786-96E6-3D33200288FA_SkippableInputX</bpmn2:dataInputRefs>
           </bpmn2:inputSet>
-          <bpmn2:outputSet id="_hcX_BNMLEe2BWNPUVB2Ekg"/>
+          <bpmn2:outputSet id="_h8GA5NMLEe2BWNPUVB2Ekg"/>
         </bpmn2:ioSpecification>
-        <bpmn2:dataInputAssociation id="_hcX_BdMLEe2BWNPUVB2Ekg">
+        <bpmn2:dataInputAssociation id="_h8GA5dMLEe2BWNPUVB2Ekg">
           <bpmn2:targetRef>_38D5A095-6597-4786-96E6-3D33200288FA_TaskNameInputX</bpmn2:targetRef>
-          <bpmn2:assignment id="_hcX_BtMLEe2BWNPUVB2Ekg">
-            <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_hcX_B9MLEe2BWNPUVB2Ekg"><![CDATA[Task]]></bpmn2:from>
-            <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_hcX_CNMLEe2BWNPUVB2Ekg">_38D5A095-6597-4786-96E6-3D33200288FA_TaskNameInputX</bpmn2:to>
+          <bpmn2:assignment id="_h8GA5tMLEe2BWNPUVB2Ekg">
+            <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_h8GA59MLEe2BWNPUVB2Ekg"><![CDATA[Task]]></bpmn2:from>
+            <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_h8GA6NMLEe2BWNPUVB2Ekg">_38D5A095-6597-4786-96E6-3D33200288FA_TaskNameInputX</bpmn2:to>
           </bpmn2:assignment>
         </bpmn2:dataInputAssociation>
-        <bpmn2:dataInputAssociation id="_hcX_CdMLEe2BWNPUVB2Ekg">
+        <bpmn2:dataInputAssociation id="_h8GA6dMLEe2BWNPUVB2Ekg">
           <bpmn2:targetRef>_38D5A095-6597-4786-96E6-3D33200288FA_SkippableInputX</bpmn2:targetRef>
-          <bpmn2:assignment id="_hcX_CtMLEe2BWNPUVB2Ekg">
-            <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_hcX_C9MLEe2BWNPUVB2Ekg"><![CDATA[false]]></bpmn2:from>
-            <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_hcX_DNMLEe2BWNPUVB2Ekg">_38D5A095-6597-4786-96E6-3D33200288FA_SkippableInputX</bpmn2:to>
+          <bpmn2:assignment id="_h8GA6tMLEe2BWNPUVB2Ekg">
+            <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_h8GA69MLEe2BWNPUVB2Ekg"><![CDATA[false]]></bpmn2:from>
+            <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_h8GA7NMLEe2BWNPUVB2Ekg">_38D5A095-6597-4786-96E6-3D33200288FA_SkippableInputX</bpmn2:to>
           </bpmn2:assignment>
         </bpmn2:dataInputAssociation>
       </bpmn2:userTask>
@@ -90,27 +90,27 @@
 ]]></drools:metaValue>
           </drools:metaData>
         </bpmn2:extensionElements>
-        <bpmn2:ioSpecification id="_hcX_DdMLEe2BWNPUVB2Ekg">
+        <bpmn2:ioSpecification id="_h8GA7dMLEe2BWNPUVB2Ekg">
           <bpmn2:dataInput id="_5CA40F64-93AC-422F-9843-0D4AEB545FA2_TaskNameInputX" drools:dtype="Object" itemSubjectRef="__5CA40F64-93AC-422F-9843-0D4AEB545FA2_TaskNameInputXItem" name="TaskName"/>
           <bpmn2:dataInput id="_5CA40F64-93AC-422F-9843-0D4AEB545FA2_SkippableInputX" drools:dtype="Object" itemSubjectRef="__5CA40F64-93AC-422F-9843-0D4AEB545FA2_SkippableInputXItem" name="Skippable"/>
-          <bpmn2:inputSet id="_hcX_DtMLEe2BWNPUVB2Ekg">
+          <bpmn2:inputSet id="_h8GA7tMLEe2BWNPUVB2Ekg">
             <bpmn2:dataInputRefs>_5CA40F64-93AC-422F-9843-0D4AEB545FA2_TaskNameInputX</bpmn2:dataInputRefs>
             <bpmn2:dataInputRefs>_5CA40F64-93AC-422F-9843-0D4AEB545FA2_SkippableInputX</bpmn2:dataInputRefs>
           </bpmn2:inputSet>
-          <bpmn2:outputSet id="_hcX_D9MLEe2BWNPUVB2Ekg"/>
+          <bpmn2:outputSet id="_h8GA79MLEe2BWNPUVB2Ekg"/>
         </bpmn2:ioSpecification>
-        <bpmn2:dataInputAssociation id="_hcX_ENMLEe2BWNPUVB2Ekg">
+        <bpmn2:dataInputAssociation id="_h8GA8NMLEe2BWNPUVB2Ekg">
           <bpmn2:targetRef>_5CA40F64-93AC-422F-9843-0D4AEB545FA2_TaskNameInputX</bpmn2:targetRef>
-          <bpmn2:assignment id="_hcX_EdMLEe2BWNPUVB2Ekg">
-            <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_hcX_EtMLEe2BWNPUVB2Ekg"><![CDATA[Task]]></bpmn2:from>
-            <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_hcX_E9MLEe2BWNPUVB2Ekg">_5CA40F64-93AC-422F-9843-0D4AEB545FA2_TaskNameInputX</bpmn2:to>
+          <bpmn2:assignment id="_h8GA8dMLEe2BWNPUVB2Ekg">
+            <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_h8GA8tMLEe2BWNPUVB2Ekg"><![CDATA[Task]]></bpmn2:from>
+            <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_h8GA89MLEe2BWNPUVB2Ekg">_5CA40F64-93AC-422F-9843-0D4AEB545FA2_TaskNameInputX</bpmn2:to>
           </bpmn2:assignment>
         </bpmn2:dataInputAssociation>
-        <bpmn2:dataInputAssociation id="_hcX_FNMLEe2BWNPUVB2Ekg">
+        <bpmn2:dataInputAssociation id="_h8GA9NMLEe2BWNPUVB2Ekg">
           <bpmn2:targetRef>_5CA40F64-93AC-422F-9843-0D4AEB545FA2_SkippableInputX</bpmn2:targetRef>
-          <bpmn2:assignment id="_hcX_FdMLEe2BWNPUVB2Ekg">
-            <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_hcX_FtMLEe2BWNPUVB2Ekg"><![CDATA[false]]></bpmn2:from>
-            <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_hcX_F9MLEe2BWNPUVB2Ekg">_5CA40F64-93AC-422F-9843-0D4AEB545FA2_SkippableInputX</bpmn2:to>
+          <bpmn2:assignment id="_h8GA9dMLEe2BWNPUVB2Ekg">
+            <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_h8GA9tMLEe2BWNPUVB2Ekg"><![CDATA[false]]></bpmn2:from>
+            <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_h8GA99MLEe2BWNPUVB2Ekg">_5CA40F64-93AC-422F-9843-0D4AEB545FA2_SkippableInputX</bpmn2:to>
           </bpmn2:assignment>
         </bpmn2:dataInputAssociation>
       </bpmn2:userTask>
@@ -119,8 +119,8 @@
       </bpmn2:startEvent>
     </bpmn2:subProcess>
   </bpmn2:process>
-  <bpmndi:BPMNDiagram id="_hcX_GNMLEe2BWNPUVB2Ekg">
-    <bpmndi:BPMNPlane id="_hcX_GdMLEe2BWNPUVB2Ekg" bpmnElement="DirecGeneral.Proceso_comunicaciones">
+  <bpmndi:BPMNDiagram id="_h8GA-NMLEe2BWNPUVB2Ekg">
+    <bpmndi:BPMNPlane id="_h8GA-dMLEe2BWNPUVB2Ekg" bpmnElement="DirecGeneral.Proceso_comunicaciones">
       <bpmndi:BPMNShape id="shape__4F21B515-DFF9-4924-ABC8-B7E9E2ED0001" bpmnElement="_4F21B515-DFF9-4924-ABC8-B7E9E2ED0001" isExpanded="true">
         <dc:Bounds height="154.0" width="865.0" x="94.0" y="19.0"/>
       </bpmndi:BPMNShape>
@@ -142,7 +142,7 @@
       </bpmndi:BPMNShape>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
-  <bpmn2:relationship id="_hcX_GtMLEe2BWNPUVB2Ekg" type="BPSimData">
+  <bpmn2:relationship id="_h8GA-tMLEe2BWNPUVB2Ekg" type="BPSimData">
     <bpmn2:extensionElements>
       <bpsim:BPSimData>
         <bpsim:Scenario xsi:type="bpsim:Scenario" id="default" name="Simulationscenario">
@@ -150,7 +150,7 @@
         </bpsim:Scenario>
       </bpsim:BPSimData>
     </bpmn2:extensionElements>
-    <bpmn2:source>_hcX_ANMLEe2BWNPUVB2Ekg</bpmn2:source>
-    <bpmn2:target>_hcX_ANMLEe2BWNPUVB2Ekg</bpmn2:target>
+    <bpmn2:source>_h8GA4NMLEe2BWNPUVB2Ekg</bpmn2:source>
+    <bpmn2:target>_h8GA4NMLEe2BWNPUVB2Ekg</bpmn2:target>
   </bpmn2:relationship>
 </bpmn2:definitions>
